@@ -37,7 +37,7 @@ deploy:
     rvm: 2.4.1
     repo: sensu-plugins/sensu-plugins-docker
 - provider: script
-  script: bonsai/ruby-runtime/travis-build-ruby-plugin-assets.sh sensu-plugins-graphite
+  script: bonsai/ruby-runtime/travis-build-ruby-plugin-assets.sh sensu-plugins-docker
   skip_cleanup: true
   on:
     tags: true
