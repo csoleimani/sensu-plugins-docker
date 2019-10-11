@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'sys-proctable', '0.9.8'
   s.add_runtime_dependency 'net_http_unix', '0.2.2'
 
-  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'bundler',                   '2.0.2'
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
   s.add_development_dependency 'github-markup',             '~> 1.3'
   s.add_development_dependency 'kitchen-docker',            '~> 2.6'
